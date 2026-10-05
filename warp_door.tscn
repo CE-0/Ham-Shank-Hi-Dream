@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://pie1tyo1vjv2"]
+
+[ext_resource type="Script" uid="uid://dxfi4so3i7yks" path="res://warp_door.gd" id="1_kb4qs"]
+
+[node name="Warp Door" type="StaticBody3D" unique_id=1644867408]
+script = ExtResource("1_kb4qs")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1772513754]
