@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bpkuw31dc6xyx"]
+
+[ext_resource type="PackedScene" uid="uid://xnu37urjf755" path="res://Player.tscn" id="1_forlt"]
+
+[node name="Plane" type="Node3D" unique_id=1334410963]
+
+[node name="Player" parent="." unique_id=2132385596 instance=ExtResource("1_forlt")]
